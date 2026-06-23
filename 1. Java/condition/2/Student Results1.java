@@ -6,7 +6,7 @@ class studentresults1{
 		if (100 <marks && marks >=50){
 			System.out.println("PASS");
 		}
-		else if (0 >marks < 50){
+		else if (0 > marks && marks < 50){
 			System.out.println("FAIL");
 		}
 		
