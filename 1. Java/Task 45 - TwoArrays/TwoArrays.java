@@ -1,7 +1,7 @@
 class TwoArrays{
 	public static void main (String args []){
-		int[][]y;
-		y=new int [5][2];
+		int [][] y;
+		y = new int [5][2];
 		y[0][0]=10;
 		y[0][1]=20;
 		

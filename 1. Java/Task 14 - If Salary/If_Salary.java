@@ -7,7 +7,7 @@ class If_Salary{
 		System.out.println("Employee Basic Salary :"+ employeesalary );
 		
 		if (employeesalary>100000){
-	tax= employeesalary * 0.03;
+		tax= employeesalary * 0.03;
 		}
 		
 		else {
