@@ -9,10 +9,10 @@ class PrintDemo {
 		System.out.print("My Father name is Yogan");
 		System.out.print("My age is 24");
 		
-		System.out.println();
-		System.out.print("My name is Seelan\n");
-		System.out.print("My Father name is Yogan\n");
-		System.out.print("My age is 24\n");
+		//System.out.println();
+		//System.out.print("My name is Seelan\n");
+		//System.out.print("My Father name is Yogan\n");
+		//System.out.print("My age is 24\n");
 		
 	}
 }
