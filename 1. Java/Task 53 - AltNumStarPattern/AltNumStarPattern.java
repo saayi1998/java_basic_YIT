@@ -3,14 +3,13 @@ class AltNumStarPattern{
 		int rows=5;
 		int cols=5;
 		
-		for(rows=1;rows<=5;rows++){
-			if(rows%2!=0){
-				for(cols=1;cols<=5;cols++){
-					System.out.print(rows);
+		for(int i=1;i<=rows;i++){
+			if(i%2!=0){
+				for(int j=1;j<=cols;j++){
+					System.out.print(i);
 				}
-			}
-			else{
-				for(cols=1;cols<=5;cols++){
+			}else{
+				for(int j=1;j<=cols;j++){
 					System.out.print("*");
 				}
 			}

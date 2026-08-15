@@ -1,10 +1,9 @@
 class StarPattern1{
 	public static void main(String args[]){
-		int rows=5;
-		int cols=5;
-		
-		for(rows=1;rows<=5;rows++){
-			for(cols=1;cols<=rows;cols++){
+		int n=5;
+			
+		for(int i=1;i<=n;i++){
+			for(int j=1;j<=i;j++){
 				System.out.print("* ");
 			}
 		System.out.println();	
